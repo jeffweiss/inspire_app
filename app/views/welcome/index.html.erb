@@ -1,1 +1,3 @@
-<h1><%=@message%><h1>
+<h1 id="inspiration"><%=@message%></h1>
+
+<%= link_to "Dismiss", {:controller => "welcome", :action => "next_message" }%>
