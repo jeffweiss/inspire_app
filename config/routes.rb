@@ -3,7 +3,7 @@ InspireApp::Application.routes.draw do
 
 
   get "welcome/index"
-  post "welcome/next_message"
+  get "welcome/next_message"
 
   resources :messages
 

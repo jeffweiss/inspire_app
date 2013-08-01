@@ -17,5 +17,6 @@ class WelcomeController < ApplicationController
 
   def next_message
     session[:current_message_id] = session_message_id + 1
+    redirect_to '/'
   end
 end
